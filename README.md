@@ -1,16 +1,28 @@
-# Electron Release Calendar (Proof of Concept)
+# 🚀 Electron Release Calendar – Proof of Concept
 
-This is a simple full-stack starter setup for the Electron GSoC project idea: Releases Working Group Calendar Website.
+This is a basic proof of concept for the **GSoC 2025 project under Electron**:  
+📅 _"Releases Working Group Calendar Website"_
 
-## Structure
+## 🧠 What it Does
 
-- `backend/`: Express.js server fetching Chromium release data.
-- `frontend/`: Placeholder for future UI.
+- 📦 Backend built with **Express.js**
+- 🔄 Fetches **Chromium release data** (mock URL used)
+- 🌐 Exposes endpoint at `/api/chromium/schedule`
+- 🛠️ Frontend placeholder (`index.html`) for future calendar UI
 
-## Getting Started
+---
 
-1. `cd backend && npm install express axios`
-2. `node index.js` to start backend.
-3. Open `frontend/index.html` in a browser for static UI (React to be added).
+## 🏗️ Project Structure
 
-Future updates will include dynamic calendar UI, admin routes, and bot integration.
+
+---
+
+## ▶️ Getting Started
+
+1. Install backend dependencies:
+```bash
+cd backend
+npm install
+node index.js
+
+Visit http://localhost:3001/api/chromium/schedule
